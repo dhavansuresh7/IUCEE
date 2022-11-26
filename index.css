@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+
+/************************** Scroll Bar ***************************/
+
+::-webkit-scrollbar {
+  width: 2px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fffcdf;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(97, 97, 97);
+}
+
+/************************* Color Pallete  *************************/
+
+.color {
+  color: #28430a;
+  color: #507b00;
+  color: #35c22b;
+  color: #a7d930;
+  color: #236fd1;
+  color: #7b4425;
+  color: #63371e;
+}
+
+/******************************* Header **********************************/
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.head {
+  height: 5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5em 0 0.5em;
+  background-color: white;
+}
+
+img {
+  width: 187px;
+}
+
+.regt {
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: #a7d930;
+  padding: 0.2em 0.5em;
+  font-size: 1.4em;
+}
+
+.regt:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #507b00;
+}
+
+/******************************* Hero-Img ****************************** */
+
+.org {
+  font-size: 1.6em;
+  font-weight: 900;
+}
+
+.small-txt {
+  font-size: 0.8em;
+}
+
+.clg-name {
+  font-size: 1.2em;
+}
+
+.hero-img {
+  display: flex;
+  flex-direction: column;
+  padding: 88px 16px 50px;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: white;
+  width: 100vw;
+  height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.457), rgba(0, 0, 0, 0.457)),
+    url(./img/enviroment.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-regt {
+  border: 2px solid white;
+  border-radius: 10px;
+  /* width: 140px; */
+  padding: 16px 10px 16px 10px;
+  background-color: #507b00;
+}
+
+.btn-regt:hover {
+  cursor: pointer;
+  background-color: #35c22b;
+  font-weight: 800;
+}
+
+/************************* Count Down Timer *****************************/
+
+#countdown {
+  padding-right: 4.3em;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 600px;
+}
+
+#countdown ul {
+  padding: 0;
+  display: flex;
+  gap: 5%;
+}
+
+#countdown ul li {
+  flex: 25%;
+  padding: 2%;
+  margin: 0;
+  list-style: none;
+  background: #35c22b;
+  border-radius: 5px;
+}
+
+#countdown ul li span {
+  display: block;
+  font-size: 3rem;
+}
+
+/******************************** ABOUT ************************************/
+
+h1 {
+  font-size: 2em;
+  padding-bottom: 0.5em;
+  font-weight: 700;
+}
+
+.iasf {
+  padding: 2em 1em 0em;
+  color: #507b00;
+  text-align: center;
+}
+
+.iasf img {
+  width: 340px;
+  height: 200px;
+}
+
+.iucee img {
+  width: 340px;
+  height: 160px;
+}
+
+.iucee {
+  padding: 2em 1em 0em;
+  background-color: #57d930a5;
+  text-align: center;
+}
+
+/**************************** Event-Timeline ******************************/
+
+.events h1 {
+  padding-top: 1em;
+  text-align: center;
+}
+
+.evt-cards {
+  display: flex;
+  padding: 20px 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+.evt-name {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #35c22b;
+}
+
+.event-card {
+  font-weight: bold;
+  color: #a7d930;
+  padding: 40px 16px;
+  margin-bottom: 2em;
+  width: 300px;
+  height: 250px;
+  border-radius: 20px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.205);
+}
+
+/******************************** Speaker *******************************/
+
+.speakers h1 {
+  padding-top: 1em;
+  text-align: center;
+}
+
+.speaker-cards {
+  padding: 1em 0 3em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.speakers {
+  background-color: #57d930a5;
+}
+
+.spk-card {
+  border-radius: 16px;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  box-shadow: 5px 5px 10px #35c22b;
+}
+
+/******************************PC-VIEW *******************************/
+
+@media screen and (min-width: 600px) {
+  /* ***************************HEADER**************************** */
+
+  img {
+    width: 280px;
+  }
+
+  .head {
+    height: 6em;
+  }
+
+  .regt {
+    margin-right: 2em;
+    font-size: 2em;
+  }
+
+  /* ***************************HERO-IMG***************************** */
+
+  .org {
+    font-size: 3.4em;
+  }
+
+  .small-txt {
+    font-size: 1.4em;
+  }
+
+  .clg-name {
+    font-size: 2.3em;
+  }
+
+  .btn-regt {
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 1.6em;
+    padding: 16px 20px;
+    background-color: #507b00;
+  }
+
+  /****************************** Count-Timer *********************************/
+
+  #countdown ul li {
+    padding: 5%;
+  }
+
+  #countdown {
+    padding-right: 7em;
+  }
+
+  /* ****************************ABOUT******************************** */
+
+  .iasf {
+    padding: 4em 0 7em 6em;
+    text-align: left;
+    display: flex;
+  }
+
+  .iasf h1 {
+    font-size: 4em;
+  }
+
+  .iasf p {
+    font-size: 2em;
+  }
+
+  .iasf img {
+    width: 600px;
+    height: 400px;
+    margin-top: 5em;
+    rotate: 270deg;
+  }
+
+  .iucee {
+    padding: 4em 6em 7em 0;
+    text-align: left;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .iucee h1 {
+    text-align: right;
+    font-size: 4em;
+  }
+
+  .iucee p {
+    text-align: right;
+    font-size: 2em;
+  }
+
+  .iucee img {
+    width: 600px;
+    height: 400px;
+    margin-top: 6em;
+    rotate: 90deg;
+  }
+
+  /* ***************************EVENTS***************************** */
+
+  .events h1{
+    font-size: 4em;
+  }
+
+  .evt-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 34px;
+    justify-content: center;
+  }
+
+  .event-card {
+    margin-bottom: 7em;
+  }
+}
