@@ -170,7 +170,7 @@ h1 {
 
 .iucee {
   padding: 2em 1em 0em;
-  background-color: #57d930a5;
+  background-image:radial-gradient(50% 50% at 50% 50%, #FFFFFF 39.62%, rgba(187, 245, 50, 0.41) 100%);
   text-align: center;
 }
 
@@ -210,6 +210,7 @@ h1 {
 .speakers h1 {
   padding-top: 1em;
   text-align: center;
+  
 }
 
 .speaker-cards {
@@ -221,7 +222,7 @@ h1 {
 }
 
 .speakers {
-  background-color: #57d930a5;
+  background-image:radial-gradient(50% 50% at 50% 50%, #FFFFFF 39.62%, rgba(187, 245, 50, 0.41) 100%);
 }
 
 .spk-card {
@@ -300,7 +301,7 @@ h1 {
 
   .iasf img {
     width: 600px;
-    height: 400px;
+    height: 200px;
     margin-top: 5em;
     rotate: 270deg;
   }
@@ -324,7 +325,7 @@ h1 {
 
   .iucee img {
     width: 600px;
-    height: 400px;
+    height: 200px;
     margin-top: 6em;
     rotate: 90deg;
   }
@@ -345,4 +346,118 @@ h1 {
   .event-card {
     margin-bottom: 7em;
   }
+}
+
+
+/* ******************************FAQ****************************** */
+
+
+.faq{
+  display: flex;
+  flex-direction: row;
+}
+.faq-left{
+  width: 50%;
+}
+.faq-right{
+  width: 50%;
+}
+
+
+
+/* *************3D-Earth Rotation*************************** */
+:root {
+  --sphereSize: 200px;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* width: 100%; height: 100%; */
+}
+
+.globe {
+  position: relative;  
+  width: var(--sphereSize);
+  height: var(--sphereSize);
+}
+
+.globe__worldmap,
+.globe__worldmap__front, .globe__worldmap__back,
+.globe__sphere,
+.globe__outer_shadow, .globe__inner_shadow,
+.globe__outer_shadow {
+  position: absolute;
+  left: 0; top: 0;
+}
+
+.globe__sphere,
+.globe__outer_shadow,
+.globe__inner_shadow {
+  width: var(--sphereSize); height: var(--sphereSize);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.globe__outer_shadow {
+  top: calc(var(--sphereSize) - 1rem);
+}
+
+/* Circle mask */
+.globe__worldmap {
+  width: var(--sphereSize); height: var(--sphereSize);
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+
+.globe__worldmap__front {
+  background-position: 0 0;
+  animation: textureSpinreverse 8s linear infinite;
+}
+
+.globe__worldmap__back { background-position: 0px -220px;
+  animation: textureSpin 8s linear infinite;
+}
+
+@keyframes textureSpin {
+  from { transform: translateX(0); }
+    to { transform: translateX(-47.5%); }
+}
+
+@keyframes textureSpinreverse {
+  from { transform: translateX(-47.5%); }
+    to { transform: translateX(0); }
+}
+
+.globe__worldmap__front,
+.globe__worldmap__back {
+  width: 1000px; height: 200px;
+  background-image: url("./img/map-texture.svg");
+  background-repeat: no-repeat;
+}
+
+/* .globe__outer_shadow {
+  background-image: url("./img/shadow.svg");
+} */
+
+.globe__inner_shadow {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwIiB5PSIwIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDIwMCAyMDAiPg0KPHJhZGlhbEdyYWRpZW50IGlkPSJyZyIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iMTAwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+DQoJPHN0b3Agb2Zmc2V0PSIwLjg1IiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAiLz4NCgk8c3RvcCBvZmZzZXQ9IjEiICAgIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPg0KPC9yYWRpYWxHcmFkaWVudD4NCjxjaXJjbGUgZmlsbD0idXJsKCNyZykiIG9wYWNpdHk9IjAuMSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iMTAwIi8+DQo8L3N2Zz4NCg==");
+}
+
+
+/* *************************** Footer****************************** */
+
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-bottom{
+  text-align: center;
+
 }
