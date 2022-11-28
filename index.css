@@ -62,10 +62,18 @@ img {
   font-size: 1.4em;
 }
 
+.regt a{
+  color: white;
+}
+
 .regt:hover {
   cursor: pointer;
-  color: white;
   background-color: #507b00;
+}
+
+.regt a:hover{
+  text-decoration: none;
+  color: white;
 }
 
 /******************************* Hero-Img ****************************** */
@@ -106,6 +114,15 @@ img {
   /* width: 140px; */
   padding: 16px 10px 16px 10px;
   background-color: #507b00;
+}
+
+.btn-regt a{
+  color: white;
+}
+
+.btn-regt a:hover{
+  text-decoration: none;
+  color: white;
 }
 
 .btn-regt:hover {
@@ -346,6 +363,7 @@ h1 {
   .event-card {
     margin-bottom: 7em;
   }
+
 }
 
 
@@ -365,7 +383,7 @@ h1 {
 
 
 
-/* *************3D-Earth Rotation*************************** */
+/* **************************3D-Earth Rotation*************************** */
 :root {
   --sphereSize: 200px;
 }
@@ -451,13 +469,46 @@ h1 {
 
 /* *************************** Footer****************************** */
 
+footer{
+  position: sticky;
+  bottom: 0;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.259);
+  padding: 1em 0;
+  margin-top: 2em;
+  background-color: white;
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+  background-color: #35c22b79;
+}
+
 .footer-container{
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+}
+
+ion-icon{
+  color: black;
+  font-size: 34px;
+}
+
+.developed img{
+  width: 50px;
+  height: 50px;
+}
+
+.vvce{
+  display: flex;
   align-items: center;
 }
 
-.footer-bottom{
-  text-align: center;
+.osl{
+  display: flex;
+  align-items: center;
+}
 
+.developed{
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }

@@ -1,299 +1,382 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IUCEE</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://demos.creative-tim.com/material-kit-pro/assets/css/material-kit-pro.min.css?v=3.0.2"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>IUCEE</title>
-  <link rel="stylesheet" href="./index.css" />
-  <link rel="stylesheet"
-    href="https://demos.creative-tim.com/material-kit-pro/assets/css/material-kit-pro.min.css?v=3.0.2" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-</head>
-
-<body>
-  <!-- -----------------------------HEADER------------------------------------ -->
-  <header class="head">
-    <div class="logo">
-      <img src="./img/logo.jpg" alt="logo" />
-    </div>
-    <div class="regt">
-      <a href="https://vvce.in.ngrok.io/erp/conf.html" target="_blank">REGISTER</a>
-    </div>
-  </header>
-  <!-- -----------------------------SECTION-1--------------------------------- -->
-  <section class="hero-img">
-    <div class="heading">
-      <span class="org">IUCEE ANNUAL STUDENT <br />
-        FORUM - IASF 2023 <br /></span>
-      <span class="small-txt">(ALONGSIDE IUCEE ANNUAL CONFERENCE <br />
-        ICTIEE 2023) <br />
+  <body>
+    <!-- -----------------------------HEADER------------------------------------ -->
+    <header class="head">
+      <div class="logo">
+        <img src="./img/logo.jpg" alt="logo" />
+      </div>
+      <div class="regt">
+        <a href="https://vvce.in.ngrok.io/erp/conf.html" target="_blank"
+          >REGISTER</a
+        >
+      </div>
+    </header>
+    <!-- -----------------------------SECTION-1--------------------------------- -->
+    <section class="hero-img">
+      <div class="heading">
+        <span class="org"
+          >IUCEE ANNUAL STUDENT <br />
+          FORUM - IASF 2023 <br
+        /></span>
+        <span class="small-txt"
+          >(ALONGSIDE IUCEE ANNUAL CONFERENCE <br />
+          ICTIEE 2023) <br />
+          <br />
+          CO-HOSTED BY AND AT</span
+        >
         <br />
-        CO-HOSTED BY AND AT</span>
-      <br />
-      <span class="clg-name">VIDYA VARDHAKA COLLEGE OF <br />ENGINEERING, <br />MYSURU,
-        KARNATAKA</span>
-    </div>
-    <div id="countdown">
-      <ul>
-        <li><span id="days"></span>Days</li>
-        <li><span id="hours"></span>Hours</li>
-        <li><span id="minutes"></span>Minutes</li>
-        <li><span id="seconds"></span>Seconds</li>
-      </ul>
-    </div>
-    <div class="btn-regt">
-      <a href="https://vvce.in.ngrok.io/erp/conf.html" target="_blank">REGISTER</a>
-    </div>
-  </section>
-  <!-- --------------------------------IASF----------------------------------- -->
-  <section class="iasf">
-    <div>
-      <h1>IASF</h1>
-      <p>
-        The registered participants, students from engineering colleges across
-        India will conduct sustainability inquiry and develop Sustainability
-        Awareness Model under close guidance and monitoring by five UN Climate
-        ambassadors from India. In the 3 days the students will learn
-        evidence-based scientific understanding of Climate challenges with
-        reference to the Indian eco-system and devise a creative solution in
-        the form of simple, sustainable and replicable practices for
-        themselves and their peers. IUCEE invites students to make video
-        reels, short movies, campaigns, strategies to bring a scalable impact.
-        The content must be scientifically proven and validated by the experts
-        on Climate.
-      </p>
-    </div>
-    <img src="./img/green-earth-removebg-preview.png" alt="green-earth" />
-  </section>
-  <!-- -------------------------------IUCEE----------------------------------- -->
-  <section class="iucee">
-    <div>
-      <h1>Sustainable Development Goals</h1>
-      <p>
-        Goal 6: Clean Water and Sanitation - Ensure availability and
-        sustainable management of water and sanitation for all <br />
-        Goal 7: Affordable and Clean Energy - Ensure access to affordable,
-        reliable, sustainable and modern energy for all <br />
-        Goal 11: Sustainable Cities and Communities - Make cities and human
-        settlements inclusive, safe, resilient and sustainable <br />
-        Goal 13: Climate Action - Take urgent action to combat climate change
-        and its impacts <br />
-        Goal 15: Life on Land - Protect, restore and promote sustainable use
-        of terrestrial ecosystems, sustainably manage forests, combat
-        desertification, and halt and reverse land degradation and halt
-        biodiversity loss
-      </p>
-    </div>
-    <img src="./img/green-build-removebg-preview.png" alt="green-build" />
-  </section>
-  <!-- -------------------------------EVENTS---------------------------------- -->
-  <section class="events">
-    <h1>Events Timeline</h1>
-    <div class="evt-cards">
-      <div class="event-card">
-        <div class="evt-name">IASF 2023 Inauguration</div>
-        <br />
-        <div class="date">4th Jan 2023</div>
-        <div class="time">Time : 9:30am - 10:00am</div>
-        <div class="detail">
-          Details : <br />UN Youth ambassadors for climate - student address.
+        <span class="clg-name"
+          >VIDYA VARDHAKA COLLEGE OF <br />ENGINEERING, <br />MYSURU,
+          KARNATAKA</span
+        >
+      </div>
+      <div id="countdown">
+        <ul>
+          <li><span id="days"></span>Days</li>
+          <li><span id="hours"></span>Hours</li>
+          <li><span id="minutes"></span>Minutes</li>
+          <li><span id="seconds"></span>Seconds</li>
+        </ul>
+      </div>
+      <div class="btn-regt">
+        <a href="https://vvce.in.ngrok.io/erp/conf.html" target="_blank"
+          >REGISTER</a
+        >
+      </div>
+    </section>
+    <!-- --------------------------------IASF----------------------------------- -->
+    <section class="iasf">
+      <div>
+        <h1>IASF</h1>
+        <p>
+          The registered participants, students from engineering colleges across
+          India will conduct sustainability inquiry and develop Sustainability
+          Awareness Model under close guidance and monitoring by five UN Climate
+          ambassadors from India. In the 3 days the students will learn
+          evidence-based scientific understanding of Climate challenges with
+          reference to the Indian eco-system and devise a creative solution in
+          the form of simple, sustainable and replicable practices for
+          themselves and their peers. IUCEE invites students to make video
+          reels, short movies, campaigns, strategies to bring a scalable impact.
+          The content must be scientifically proven and validated by the experts
+          on Climate.
+        </p>
+      </div>
+      <img src="./img/green-earth-removebg-preview.png" alt="green-earth" />
+    </section>
+    <!-- -------------------------------IUCEE----------------------------------- -->
+    <section class="iucee">
+      <div>
+        <h1>Sustainable Development Goals</h1>
+        <p>
+          Goal 6: Clean Water and Sanitation - Ensure availability and
+          sustainable management of water and sanitation for all <br />
+          Goal 7: Affordable and Clean Energy - Ensure access to affordable,
+          reliable, sustainable and modern energy for all <br />
+          Goal 11: Sustainable Cities and Communities - Make cities and human
+          settlements inclusive, safe, resilient and sustainable <br />
+          Goal 13: Climate Action - Take urgent action to combat climate change
+          and its impacts <br />
+          Goal 15: Life on Land - Protect, restore and promote sustainable use
+          of terrestrial ecosystems, sustainably manage forests, combat
+          desertification, and halt and reverse land degradation and halt
+          biodiversity loss
+        </p>
+      </div>
+      <img src="./img/green-build-removebg-preview.png" alt="green-build" />
+    </section>
+    <!-- -------------------------------EVENTS---------------------------------- -->
+    <section class="events">
+      <h1>Events Timeline</h1>
+      <div class="evt-cards">
+        <div class="event-card">
+          <div class="evt-name">IASF 2023 Inauguration</div>
+          <br />
+          <div class="date">4th Jan 2023</div>
+          <div class="time">Time : 9:30am - 10:00am</div>
+          <div class="detail">
+            Details : <br />UN Youth ambassadors for climate - student address.
+          </div>
+        </div>
+        <div class="event-card">
+          <div class="evt-name">UNSDG 6,7,11,13,15</div>
+          <br />
+          <div class="date">4th Jan 2023</div>
+          <div class="time">Time : 11:30am - 4:00pm</div>
+          <div class="detail">
+            Details : <br />Investigation and group discussion.
+          </div>
+        </div>
+        <div class="event-card">
+          <div class="evt-name">Sustainability Myth</div>
+          <br />
+          <div class="date">4th Jan 2023</div>
+          <div class="time">Time : 4:30pm - 6:00pm</div>
+          <div class="detail">
+            Details : <br />Teams conclude the content for their awareness
+            model.
+          </div>
+        </div>
+        <div class="event-card">
+          <div class="evt-name">Marathon</div>
+          <br />
+          <div class="date">5th Jan 2023</div>
+          <div class="time">Time : 6:30am - 9:30am</div>
+          <div class="detail">
+            Details : <br />Mysuru city run/walk for sustainable planet.
+          </div>
+        </div>
+        <div class="event-card">
+          <div class="evt-name">Sustainability Awareness Model</div>
+          <br />
+          <div class="date">5th Jan 2023</div>
+          <div class="time">Time : 10:30am - 1:30pm</div>
+          <div class="detail">
+            Details : <br />Sustainability fact checks and critical review by
+            climate mentors.
+          </div>
+        </div>
+        <div class="event-card">
+          <div class="evt-name">Sustainability Awareness Model</div>
+          <br />
+          <div class="date">5th Jan 2023</div>
+          <div class="time">Time : 2:30pm - 6:30pm</div>
+          <div class="detail">
+            Details : <br />Ideate and develop sustainability awareness model.
+          </div>
+        </div>
+        <div class="event-card">
+          <div class="evt-name">Exhibition</div>
+          <br />
+          <div class="date">6th Jan 2023</div>
+          <div class="time">Time : All day</div>
+          <div class="detail">
+            Details : <br />Content validation and final check by climate
+            mentors.
+          </div>
+        </div>
+        <div class="event-card">
+          <div class="evt-name">Event name</div>
+          <br />
+          <div class="date">6th Jan 2023</div>
+          <div class="time">Time: All day</div>
+          <div class="detail">
+            Details : <br />Interaction with experts from industries and ICTIEE
+            delegates.
+          </div>
+        </div>
+        <div class="event-card">
+          <div class="evt-name">Closing Ceremony</div>
+          <br />
+          <div class="date">6th Jan 2023</div>
+          <div class="time">Time: 6:30pm - 8:00pm</div>
+          <div class="detail">
+            Details : <br />Award ceremony, valedictory and cultural show.
+          </div>
         </div>
       </div>
-      <div class="event-card">
-        <div class="evt-name">UNSDG 6,7,11,13,15</div>
-        <br />
-        <div class="date">4th Jan 2023</div>
-        <div class="time">Time : 11:30am - 4:00pm</div>
-        <div class="detail">
-          Details : <br />Investigation and group discussion.
-        </div>
+    </section>
+    <!-- ------------------------------SPEAKERS--------------------------------- -->
+    <section class="speakers">
+      <h1>Speakers</h1>
+      <div class="speaker-cards">
+        <div class="spk-card"></div>
+        <div class="spk-card"></div>
+        <div class="spk-card"></div>
+        <div class="spk-card"></div>
+        <div class="spk-card"></div>
+        <div class="spk-card"></div>
       </div>
-      <div class="event-card">
-        <div class="evt-name">Sustainability Myth</div>
-        <br />
-        <div class="date">4th Jan 2023</div>
-        <div class="time">Time : 4:30pm - 6:00pm</div>
-        <div class="detail">
-          Details : <br />Teams conclude the content for their awareness
-          model.
-        </div>
-      </div>
-      <div class="event-card">
-        <div class="evt-name">Marathon</div>
-        <br />
-        <div class="date">5th Jan 2023</div>
-        <div class="time">Time : 6:30am - 9:30am</div>
-        <div class="detail">
-          Details : <br />Mysuru city run/walk for sustainable planet.
-        </div>
-      </div>
-      <div class="event-card">
-        <div class="evt-name">Sustainability Awareness Model</div>
-        <br />
-        <div class="date">5th Jan 2023</div>
-        <div class="time">Time : 10:30am - 1:30pm</div>
-        <div class="detail">
-          Details : <br />Sustainability fact checks and critical review by
-          climate mentors.
-        </div>
-      </div>
-      <div class="event-card">
-        <div class="evt-name">Sustainability Awareness Model</div>
-        <br />
-        <div class="date">5th Jan 2023</div>
-        <div class="time">Time : 2:30pm - 6:30pm</div>
-        <div class="detail">
-          Details : <br />Ideate and develop sustainability awareness model.
-        </div>
-      </div>
-      <div class="event-card">
-        <div class="evt-name">Exhibition</div>
-        <br />
-        <div class="date">6th Jan 2023</div>
-        <div class="time">Time : All day</div>
-        <div class="detail">
-          Details : <br />Content validation and final check by climate
-          mentors.
-        </div>
-      </div>
-      <div class="event-card">
-        <div class="evt-name">Event name</div>
-        <br />
-        <div class="date">6th Jan 2023</div>
-        <div class="time">Time: All day</div>
-        <div class="detail">
-          Details : <br />Interaction with experts from industries and ICTIEE
-          delegates.
-        </div>
-      </div>
-      <div class="event-card">
-        <div class="evt-name">Closing Ceremony</div>
-        <br />
-        <div class="date">6th Jan 2023</div>
-        <div class="time">Time: 6:30pm - 8:00pm</div>
-        <div class="detail">
-          Details : <br />Award ceremony, valedictory and cultural show.
-        </div>
+    </section>
+    <!-- ------------------------------F.A.Q------------------------- -->
+    <div class="row my-5">
+      <div class="col-md-6 mx-auto text-center">
+        <h2>Frequently Asked Questions</h2>
       </div>
     </div>
-  </section>
-  <!-- ------------------------------SPEAKERS--------------------------------- -->
-  <section class="speakers">
-    <h1>Speakers</h1>
-    <div class="speaker-cards">
-      <div class="spk-card"></div>
-      <div class="spk-card"></div>
-      <div class="spk-card"></div>
-      <div class="spk-card"></div>
-      <div class="spk-card"></div>
-      <div class="spk-card"></div>
-    </div>
-  </section>
-  <!-- ------------------------------F.A.Q------------------------- -->
-  <div class="row my-5 ">
-    <div class="col-md-6 mx-auto text-center ">
-      <h2>Frequently Asked Questions</h2>
-    </div>
-  </div>
-  <div class="faq">
-
-    <div class="faq-left">
-      <section class="py-4 ml-4">
-        <div>
-          <div class="row">
-            <div class="col-md-10 mx-auto">
-              <div class="accordion" id="accordionRental">
-
-                <div class="accordion-item mb-3">
-                  <h5 class="accordion-header" id="headingOne">
-                    <button class="accordion-button border-bottom font-weight-bold" type="button"
-                      data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
-                      aria-controls="collapseOne">
-                      FAQ Question 1
-                      <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
-                      <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
-                    </button>
-                  </h5>
-                  <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
-                    data-bs-parent="#accordionRental">
-                    <div class="accordion-body text-sm opacity-8">
-                      FAQ Ans 1
+    <div class="faq">
+      <div class="faq-left">
+        <section class="py-4 ml-4">
+          <div>
+            <div class="row">
+              <div class="col-md-10 mx-auto">
+                <div class="accordion" id="accordionRental">
+                  <div class="accordion-item mb-3">
+                    <h5 class="accordion-header" id="headingOne">
+                      <button
+                        class="accordion-button border-bottom font-weight-bold"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        FAQ Question 1
+                        <i
+                          class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"
+                        ></i>
+                        <i
+                          class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"
+                        ></i>
+                      </button>
+                    </h5>
+                    <div
+                      id="collapseOne"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingOne"
+                      data-bs-parent="#accordionRental"
+                    >
+                      <div class="accordion-body text-sm opacity-8">
+                        FAQ Ans 1
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="accordion-item mb-3">
-                  <h5 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button border-bottom font-weight-bold" type="button"
-                      data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                      aria-controls="collapseTwo">
-                      FAQ Question 2
-                      <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
-                      <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
-                    </button>
-                  </h5>
-                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                    data-bs-parent="#accordionRental">
-                    <div class="accordion-body text-sm opacity-8">
-                      FAQ ANS2
+                  <div class="accordion-item mb-3">
+                    <h5 class="accordion-header" id="headingTwo">
+                      <button
+                        class="accordion-button border-bottom font-weight-bold"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        FAQ Question 2
+                        <i
+                          class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"
+                        ></i>
+                        <i
+                          class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"
+                        ></i>
+                      </button>
+                    </h5>
+                    <div
+                      id="collapseTwo"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionRental"
+                    >
+                      <div class="accordion-body text-sm opacity-8">
+                        FAQ ANS2
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="accordion-item mb-3">
-                  <h5 class="accordion-header" id="headingThree">
-                    <button class="accordion-button border-bottom font-weight-bold" type="button"
-                      data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                      aria-controls="collapseThree">
-                      FAQ Question 3
-                      <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
-                      <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
-                    </button>
-                  </h5>
-                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                    data-bs-parent="#accordionRental">
-                    <div class="accordion-body text-sm opacity-8">
-                      FAQ ANS 3
+                  <div class="accordion-item mb-3">
+                    <h5 class="accordion-header" id="headingThree">
+                      <button
+                        class="accordion-button border-bottom font-weight-bold"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree"
+                      >
+                        FAQ Question 3
+                        <i
+                          class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"
+                        ></i>
+                        <i
+                          class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"
+                        ></i>
+                      </button>
+                    </h5>
+                    <div
+                      id="collapseThree"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingThree"
+                      data-bs-parent="#accordionRental"
+                    >
+                      <div class="accordion-body text-sm opacity-8">
+                        FAQ ANS 3
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-
-    </div>
-    <div class="faq-right">
-      <div class="container">
-        <div class="globe">
-          <div class="globe__sphere"></div>
-          <div class="globe__outer_shadow"></div>
-          <div class="globe__worldmap">
-            <div class="globe__worldmap__back"></div>
-            <div class="globe__worldmap__front"></div>
+        </section>
+      </div>
+      <div class="faq-right">
+        <div class="container">
+          <div class="globe">
+            <div class="globe__sphere"></div>
+            <div class="globe__outer_shadow"></div>
+            <div class="globe__worldmap">
+              <div class="globe__worldmap__back"></div>
+              <div class="globe__worldmap__front"></div>
+            </div>
+            <div class="globe__inner_shadow"></div>
           </div>
-          <div class="globe__inner_shadow"></div>
         </div>
       </div>
-
     </div>
-  </div>
-  <!-- ------------------------------FOOTER------------------------ -->
-  <footer>
-    <div class="footer-container">
-      <div class="footer-left">Socials</div>
-      <div class="footer-right">Map</div>
-
+    <!-- ------------------------------FOOTER------------------------ -->
+    <footer>
+      <div class="footer-container">
+        <div class="insta">
+          <a href="https://www.instagram.com/iuceefoundation"
+            ><ion-icon name="logo-instagram"></ion-icon
+          ></a>
+        </div>
+        <div class="twitter">
+          <a href="https://twitter.com/iucee2"
+            ><ion-icon name="logo-twitter"></ion-icon
+          ></a>
+        </div>
+        <div class="fb">
+          <a
+            href="https://www.facebook.com/IndoUsCollaborationForEngineeringEducationIucee/"
+            ><ion-icon name="logo-facebook"></ion-icon
+          ></a>
+        </div>
+        <div class="link-in">
+          <a
+            href="https://www.linkedin.com/company/indo-universal-collaboration-for-engineering-education/"
+            ><ion-icon name="logo-linkedin"></ion-icon
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <div class="developed">
+      <div class="vvce">
+        <p>Powered By :</p>
+        <img src="./img/vvce-logo.png" alt="vvce" />
+      </div>
+      <div class="osl">
+        <p>Developed By :</p>
+        <img src="./img/osl.png" alt="osl" />
+      </div>
     </div>
-    <div class="footer-bottom">
-      <p>Developed by OSL_VVCE</p>
-    </div>
-  </footer>
-  <script src="app.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.min.js"></script>
-</body>
 
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.min.js"></script>
+  </body>
 </html>
