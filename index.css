@@ -347,6 +347,25 @@ h1 {
     background-color: #507b00;
   }
 
+  /******************************** Speakers *****************************/
+
+  .spk-card {
+    border-radius: 16px;
+    width: 250px;
+    height: 250px;
+    font-size: 25px;
+    background-color: white;
+    box-shadow: 5px 5px 10px #35c22b;
+    color: white;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+  }
+
+  #spk5 .spk-name{
+    margin-top: 61%;
+  }
+
   /****************************** Count-Timer *********************************/
 
   #countdown ul li {
@@ -541,6 +560,7 @@ footer{
 .footer-container{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 ion-icon{
