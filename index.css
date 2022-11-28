@@ -592,6 +592,28 @@ ion-icon{
   justify-content: space-around;
 }
 
+.developers{
+  text-align: center;
+}
+
+.ppl{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width: 500px){
+  .developers strong{
+    text-align: center;
+  }
+
+  .ppl{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
 
 
 /* ************** MAP-SECTION ********************** */
