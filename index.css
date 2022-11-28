@@ -550,11 +550,13 @@ footer{
   bottom: 0;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.259);
   padding: 1em 0;
-  margin-top: 2em;
+  /* margin-top: 2em; */
   background-color: white;
   border-top-right-radius: 16px;
   border-top-left-radius: 16px;
-  background-color: #35c22b79;
+  background-color: #bbf53269;
+  /* background-image:radial-gradient(50% 50% at 50% 50%, #FFFFFF 39.62%, #bbf53269 100%); */
+
 }
 
 .footer-container{
@@ -589,3 +591,66 @@ ion-icon{
   align-items: center;
   justify-content: space-around;
 }
+
+
+
+/* ************** MAP-SECTION ********************** */
+
+.map-section-container{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.map-left p{
+  text-align: center;
+  width: 100%;
+}
+.map-right{
+  width: 100%;
+  margin: auto;
+}
+.map-map{
+  margin: 28px;
+  border: 1px solid;
+  width: 300px;
+  border-radius: 2%;
+  box-shadow: 4px 8px #4f9b106f;
+  box-shadow: #84bb1d;
+}
+
+.map-heading{
+  text-align: center;
+}
+.map-section{
+  background-image:radial-gradient(50% 50% at 50% 50%, #FFFFFF 39.62%, rgba(187, 245, 50, 0.41) 100%);
+  padding: 2%;
+  /* margin-bottom: -2%; */
+}
+@media screen and (min-width: 800px) {
+  .map-map{
+    margin: 28px;
+    border: 1px solid;
+    width: 600px;
+    border-radius: 2%;
+    box-shadow: 4px 8px #4f9b106f;
+    box-shadow: #84bb1d;
+  }
+  .map-section-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .map-left{
+    width: 50%;
+    margin: 2% 4% 0;
+  }
+
+  .map-left p{
+    text-align: justify;
+    width: 80%;
+  }
+  .map-right{
+    width: 50%;
+    margin: auto;
+  }
+  }
