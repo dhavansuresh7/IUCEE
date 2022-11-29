@@ -250,7 +250,7 @@ h1 {
   box-shadow: 5px 5px 10px #35c22b;
   color: white;
   text-align: center;
-  background-position: center;
+  background-position:center;
   background-size: cover;
 }
   
@@ -264,33 +264,33 @@ h1 {
   text-decoration: none;
 
 }
-
 #spk1{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/niranjan.jpg');
+}
+#spk2{
   background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/karthik.jpg');
 }
 
-#spk2{
+#spk3{
   background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/sneha.jpg');
 }
 
-#spk3{
+#spk4{
   background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/berjis.jpg');
   
 }
 
-#spk4{
+#spk5{
   background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/heeta.jpg');
 }
-#spk5{
+#spk6{
   background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/akhil.jpg');
 }
 
-#spk5 .spk-name{
+#spk6 .spk-name{
   margin-top: 48%;
 }
-#spk6{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/garvita.jpg');
-}
+
 
 
 .spk-card a{
@@ -302,6 +302,19 @@ h1 {
   font-weight: 800;
   
 }
+
+
+#walk-map{
+  margin-left: 12%;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -674,5 +687,8 @@ ion-icon{
   .map-right{
     width: 50%;
     margin: auto;
+  }
+  #walk-map{
+    margin-left: 12%;
   }
   }
