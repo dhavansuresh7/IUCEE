@@ -291,6 +291,31 @@ h1 {
   margin-top: 48%;
 }
 
+/* Sustainability Speakers */
+#sspk1{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/niranjan.jpg');
+}
+#sspk2{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/Sanju\ Soman.jpg');
+}
+
+#sspk3{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/MedhaPriya.jpg');
+}
+
+#sspk4{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/garvita.jpg');
+  
+}
+
+#sspk5{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/VASANTHI.jpeg');
+}
+#sspk6{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/akhil.jpg');
+}
+
+
 
 
 .spk-card a{
