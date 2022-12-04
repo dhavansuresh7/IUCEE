@@ -179,6 +179,7 @@ h1 {
 .iasf img {
   width: 340px;
   height: 200px;
+ 
 }
 
 .iucee img {
@@ -445,12 +446,13 @@ margin-top: 85%;
 
   .iasf {
     padding: 4em 0 7em 6em;
-    text-align: left;
+    text-align: justify;
     display: flex;
   }
 
   .iasf h1 {
     font-size: 4em;
+    margin-left: 15%;
   }
 
   .iasf p {
@@ -458,8 +460,9 @@ margin-top: 85%;
   }
 
   .iasf img {
-    width: 600px;
-    height: 200px;
+    margin-right: -150px;
+    width: 700px;
+    height: 300px;
     margin-top: 5em;
     rotate: 270deg;
   }
