@@ -167,6 +167,7 @@ h1 {
   font-size: 2em;
   padding-bottom: 0.5em;
   font-weight: 700;
+  text-align: center;
 }
 
 .iasf {
@@ -184,24 +185,26 @@ h1 {
   width: 340px;
   height: 160px;
 }
-
+.iucee strong {
+  font-weight: 800;
+    }
 .iucee {
   padding: 2em 1em 0em;
   background-image:radial-gradient(50% 50% at 50% 50%, #FFFFFF 39.62%, rgba(187, 245, 50, 0.41) 100%);
-  text-align: center;
+  text-align: justify;
 }
 
 /**************************** Event-Timeline ******************************/
 
 .detail-timeline-link{
   display: block;
+  margin-bottom: 1em;
   text-align: center;
   background-image:linear-gradient(#35c22b, #0f5c09);
   width: fit-content;
   font-size: 16px;
   color: #fff;
   border-radius: 4%;
-  
   padding:12px;
   margin: auto;
 }
@@ -212,10 +215,14 @@ h1 {
   padding-top: 1em;
   text-align: center;
 }
+.events h2 {
+  padding-top: .5em;
+  text-align: center;
+}
 
 .evt-cards {
   display: flex;
-  padding: 20px 0;
+  padding: 20px 0 0 0;
   flex-direction: column;
   align-items: center;
 }
@@ -230,7 +237,7 @@ h1 {
   font-weight: bold;
   color: #a7d930;
   padding: 40px 16px;
-  margin-bottom: 2em;
+  margin-bottom: 0em;
   width: 300px;
   height: 250px;
   border-radius: 20px;
@@ -260,7 +267,7 @@ h1 {
 .spk-card {
   border-radius: 16px;
   width: 150px;
-  height: 150px;
+  height: 200px;
   background-color: white;
   box-shadow: 5px 5px 10px #35c22b;
   color: white;
@@ -272,8 +279,9 @@ h1 {
   
 .spk-name{
   
-  margin: auto;
-  margin-top: 60%;
+  display: grid;
+margin-top: 85%;
+  align-items: center;
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
@@ -287,7 +295,7 @@ h1 {
 }
 
 #spk3{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/sneha.jpg');
+  background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/sneha-shahi.jpeg');
 }
 
 #spk4{
@@ -301,10 +309,8 @@ h1 {
 #spk6{
   background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/akhil.jpg');
 }
+/* 
 
-#spk6 .spk-name{
-  margin-top: 48%;
-}
 
 /* Sustainability Speakers */
 #sspk1{
@@ -315,7 +321,7 @@ h1 {
 }
 
 #sspk3{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/MedhaPriya.jpg');
+  background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/medha-priya.jpeg');
 }
 
 #sspk4{
@@ -410,13 +416,19 @@ h1 {
     background-color: white;
     box-shadow: 5px 5px 10px #35c22b;
     color: white;
-    text-align: center;
+    /* text-align: center; */
     background-position: center;
     background-size: cover;
   }
-
-  #spk5 .spk-name{
-    margin-top: 61%;
+  .spk-name{
+  
+    display: grid;
+  margin-top: 70%;
+    align-items: center;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  
   }
 
   /****************************** Count-Timer *********************************/
@@ -465,7 +477,7 @@ h1 {
   }
 
   .iucee p {
-    text-align: right;
+    text-align: justify;
     font-size: 2em;
   }
 
@@ -474,6 +486,9 @@ h1 {
     height: 200px;
     margin-top: 6em;
     rotate: 90deg;
+  }
+  .iucee strong {
+font-weight: 800;
   }
 
   /* ***************************EVENTS***************************** */
