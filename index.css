@@ -62,10 +62,18 @@ img {
   font-size: 1.4em;
 }
 
+.regt a{
+  color: white;
+}
+
 .regt:hover {
   cursor: pointer;
-  color: white;
   background-color: #507b00;
+}
+
+.regt a:hover{
+  text-decoration: none;
+  color: white;
 }
 
 /******************************* Hero-Img ****************************** */
@@ -106,6 +114,15 @@ img {
   /* width: 140px; */
   padding: 16px 10px 16px 10px;
   background-color: #507b00;
+}
+
+.btn-regt a{
+  color: white;
+}
+
+.btn-regt a:hover{
+  text-decoration: none;
+  color: white;
 }
 
 .btn-regt:hover {
@@ -150,6 +167,7 @@ h1 {
   font-size: 2em;
   padding-bottom: 0.5em;
   font-weight: 700;
+  text-align: center;
 }
 
 .iasf {
@@ -161,29 +179,51 @@ h1 {
 .iasf img {
   width: 340px;
   height: 200px;
+ 
 }
 
 .iucee img {
   width: 340px;
   height: 160px;
 }
-
+.iucee strong {
+  font-weight: 800;
+    }
 .iucee {
   padding: 2em 1em 0em;
   background-image:radial-gradient(50% 50% at 50% 50%, #FFFFFF 39.62%, rgba(187, 245, 50, 0.41) 100%);
-  text-align: center;
+  text-align: justify;
 }
 
 /**************************** Event-Timeline ******************************/
 
+.detail-timeline-link{
+  display: block;
+  margin-bottom: 1em;
+  text-align: center;
+  background-image:linear-gradient(#35c22b, #0f5c09);
+  width: fit-content;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 4%;
+  padding:12px;
+  margin: auto;
+}
+.events a:hover{
+  color: #bcffb7;
+}
 .events h1 {
   padding-top: 1em;
+  text-align: center;
+}
+.events h2 {
+  padding-top: .5em;
   text-align: center;
 }
 
 .evt-cards {
   display: flex;
-  padding: 20px 0;
+  padding: 20px 0 0 0;
   flex-direction: column;
   align-items: center;
 }
@@ -198,7 +238,7 @@ h1 {
   font-weight: bold;
   color: #a7d930;
   padding: 40px 16px;
-  margin-bottom: 2em;
+  margin-bottom: 0em;
   width: 300px;
   height: 250px;
   border-radius: 20px;
@@ -228,14 +268,108 @@ h1 {
 .spk-card {
   border-radius: 16px;
   width: 150px;
-  height: 150px;
+  height: 200px;
   background-color: white;
   box-shadow: 5px 5px 10px #35c22b;
+  color: white;
+  text-align: center;
+  background-position:center;
+  background-size: cover;
 }
+  
+  
+.spk-name{
+  
+  display: grid;
+margin-top: 90%;
+  align-items: center;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+
+}
+#spk1{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/niranjan.jpg');
+}
+#spk2{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/karthik.jpg');
+}
+
+#spk3{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/sneha-shahi.jpeg');
+}
+
+#spk4{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/berjis.jpg');
+  
+}
+
+#spk5{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/heeta.jpg');
+}
+#spk6{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/akhil.jpg');
+}
+/* 
+
+
+/* Sustainability Speakers */
+#sspk1{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/niranjan.jpg');
+}
+#sspk2{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/Sanju\ Soman.jpg');
+}
+
+#sspk3{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/medha-priya.jpeg');
+}
+
+#sspk4{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/garvita.jpg');
+  
+}
+
+#sspk5{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/VASANTHI.jpeg');
+}
+#sspk6{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url('img/akhil.jpg');
+}
+
+
+
+
+.spk-card a{
+  color: rgb(68, 211, 104);
+  text-decoration: none;
+}
+.spk-dsg{
+  font-size: 10px;
+  font-weight: 800;
+  
+}
+
+
+#walk-map{
+  margin-left: 12%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /******************************PC-VIEW *******************************/
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
   /* ***************************HEADER**************************** */
 
   img {
@@ -273,6 +407,31 @@ h1 {
     background-color: #507b00;
   }
 
+  /******************************** Speakers *****************************/
+
+  .spk-card {
+    border-radius: 16px;
+    width: 250px;
+    height: 250px;
+    font-size: 25px;
+    background-color: white;
+    box-shadow: 5px 5px 10px #35c22b;
+    color: white;
+    /* text-align: center; */
+    background-position: center;
+    background-size: cover;
+  }
+  .spk-name{
+  
+    display: grid;
+  margin-top: 70%;
+    align-items: center;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  
+  }
+
   /****************************** Count-Timer *********************************/
 
   #countdown ul li {
@@ -287,12 +446,13 @@ h1 {
 
   .iasf {
     padding: 4em 0 7em 6em;
-    text-align: left;
+    text-align: justify;
     display: flex;
   }
 
   .iasf h1 {
     font-size: 4em;
+    margin-left: 15%;
   }
 
   .iasf p {
@@ -300,8 +460,9 @@ h1 {
   }
 
   .iasf img {
-    width: 600px;
-    height: 200px;
+    margin-right: -150px;
+    width: 700px;
+    height: 300px;
     margin-top: 5em;
     rotate: 270deg;
   }
@@ -319,7 +480,7 @@ h1 {
   }
 
   .iucee p {
-    text-align: right;
+    text-align: justify;
     font-size: 2em;
   }
 
@@ -328,6 +489,9 @@ h1 {
     height: 200px;
     margin-top: 6em;
     rotate: 90deg;
+  }
+  .iucee strong {
+font-weight: 800;
   }
 
   /* ***************************EVENTS***************************** */
@@ -346,6 +510,7 @@ h1 {
   .event-card {
     margin-bottom: 7em;
   }
+
 }
 
 
@@ -365,7 +530,7 @@ h1 {
 
 
 
-/* *************3D-Earth Rotation*************************** */
+/* **************************3D-Earth Rotation*************************** */
 :root {
   --sphereSize: 200px;
 }
@@ -451,13 +616,137 @@ h1 {
 
 /* *************************** Footer****************************** */
 
+footer{
+  position: sticky;
+  bottom: 0;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.259);
+  padding: 1em 0;
+  /* margin-top: 2em; */
+  background-color: white;
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+  background-color: #bbf53269;
+  /* background-image:radial-gradient(50% 50% at 50% 50%, #FFFFFF 39.62%, #bbf53269 100%); */
+
+}
+
 .footer-container{
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+ion-icon{
+  color: black;
+  font-size: 34px;
+}
+
+.developed img{
+  width: 50px;
+  height: 50px;
+}
+
+.vvce{
+  display: flex;
   align-items: center;
 }
 
-.footer-bottom{
-  text-align: center;
-
+.osl{
+  display: flex;
+  align-items: center;
 }
+
+.developed{
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.developers{
+  text-align: center;
+}
+
+.ppl{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width: 500px){
+  .developers strong{
+    text-align: center;
+  }
+
+  .ppl{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+
+
+/* ************** MAP-SECTION ********************** */
+
+.map-section-container{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.map-left p{
+  text-align: center;
+  width: 100%;
+}
+.map-right{
+  width: 100%;
+  margin: auto;
+}
+.map-map{
+  margin: 28px;
+  border: 1px solid;
+  width: 300px;
+  border-radius: 2%;
+  box-shadow: 4px 8px #4f9b106f;
+  box-shadow: #84bb1d;
+}
+
+.map-heading{
+  text-align: center;
+}
+.map-section{
+  background-image:radial-gradient(50% 50% at 50% 50%, #FFFFFF 39.62%, rgba(187, 245, 50, 0.41) 100%);
+  padding: 2%;
+  /* margin-bottom: -2%; */
+}
+@media screen and (min-width: 800px) {
+  .map-map{
+    margin: 28px;
+    border: 1px solid;
+    width: 600px;
+    border-radius: 2%;
+    box-shadow: 4px 8px #4f9b106f;
+    box-shadow: #84bb1d;
+  }
+  .map-section-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .map-left{
+    width: 50%;
+    margin: 2% 4% 0;
+  }
+
+  .map-left p{
+    text-align: justify;
+    width: 80%;
+  }
+  .map-right{
+    width: 50%;
+    margin: auto;
+  }
+  #walk-map{
+    margin-left: 12%;
+  }
+  }
